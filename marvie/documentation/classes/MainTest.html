@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
     <meta charset="utf-8"/>
-    <title>    API Documentation &raquo; \MatrixOperations
+    <title>    API Documentation &raquo; \MainTest
 </title>
     <meta name="author" content=""/>
     <meta name="description" content=""/>
@@ -117,69 +117,9 @@
         <li class="nav-header">
             <i class="icon-custom icon-method"></i> Methods
             <ul>
-                                                                                                    <li class="method public">
-        <a href="#method_core" title="core :: ">
-            <span class="description"></span><pre>core</pre>
-        </a>
-    </li>
-
-                                                                                                        <li class="method public">
-        <a href="#method_gaussianElimination" title="gaussianElimination :: ">
-            <span class="description"></span><pre>gaussianElimination</pre>
-        </a>
-    </li>
-
-                                                                                                        <li class="method public">
-        <a href="#method_identity" title="identity :: ">
-            <span class="description"></span><pre>identity</pre>
-        </a>
-    </li>
-
-                                                                                                        <li class="method public">
-        <a href="#method_inverse" title="inverse :: ">
-            <span class="description"></span><pre>inverse</pre>
-        </a>
-    </li>
-
-                                                                                                        <li class="method public">
-        <a href="#method_multiply" title="multiply :: ">
-            <span class="description"></span><pre>multiply</pre>
-        </a>
-    </li>
-
-                                                                                                        <li class="method public">
-        <a href="#method_scale" title="scale :: ">
-            <span class="description"></span><pre>scale</pre>
-        </a>
-    </li>
-
-                                                                                                        <li class="method public">
-        <a href="#method_sub" title="sub :: ">
-            <span class="description"></span><pre>sub</pre>
-        </a>
-    </li>
-
-                                                                                                        <li class="method public">
-        <a href="#method_subNumber" title="subNumber :: ">
-            <span class="description"></span><pre>subNumber</pre>
-        </a>
-    </li>
-
-                                                                                                        <li class="method public">
-        <a href="#method_sum" title="sum :: ">
-            <span class="description"></span><pre>sum</pre>
-        </a>
-    </li>
-
-                                                                                                        <li class="method public">
-        <a href="#method_sumNumber" title="sumNumber :: ">
-            <span class="description"></span><pre>sumNumber</pre>
-        </a>
-    </li>
-
-                                                                                                        <li class="method public">
-        <a href="#method_transpose" title="transpose :: ">
-            <span class="description"></span><pre>transpose</pre>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="method public">
+        <a href="#method_testIfTrue" title="testIfTrue :: ">
+            <span class="description"></span><pre>testIfTrue</pre>
         </a>
     </li>
 
@@ -187,11 +127,46 @@
         </li>
         <li class="nav-header protected">» Protected
             <ul>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                                                                                                                <li class="method protected inherited">
+                            <a href="#method_assertEquals" title="assertEquals :: ">
+                                <span class="description"></span><pre>assertEquals</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_assertFalse" title="assertFalse :: ">
+                                <span class="description"></span><pre>assertFalse</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_assertNull" title="assertNull :: ">
+                                <span class="description"></span><pre>assertNull</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method protected inherited">
+                            <a href="#method_assertTrue" title="assertTrue :: ">
+                                <span class="description"></span><pre>assertTrue</pre>
+                            </a>
+                        </li>
+                                                                                                                                                            </ul>
         </li>
         <li class="nav-header private">» Private
             <ul>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                                                                            <li class="method private inherited">
+                            <a href="#method_assert" title="assert :: ">
+                                <span class="description"></span><pre>assert</pre>
+                            </a>
+                        </li>
+                                                                                                                                                                                                                                <li class="method private inherited">
+                            <a href="#method_failed" title="failed :: ">
+                                <span class="description"></span><pre>failed</pre>
+                            </a>
+                        </li>
+                                                                                <li class="method private inherited">
+                            <a href="#method_passed" title="passed :: ">
+                                <span class="description"></span><pre>passed</pre>
+                            </a>
+                        </li>
+                                                                                    </ul>
         </li>
         <li class="nav-header">
             <i class="icon-custom icon-constant"></i> Constants
@@ -205,8 +180,9 @@
 
         <div class="span8">
             <div class="element class">
-                <h1>MatrixOperations</h1>
+                <h1>MainTest</h1>
                 <small style="display: block; text-align: right">
+                                            Extends <a href="../classes/UnitTest.html">\UnitTest</a>
                                                         </small>
                 <p class="short_description"></p>
                 <div class="details">
@@ -226,12 +202,12 @@
                                                                                                                                                                                 </table>
 
                     <h3><i class="icon-custom icon-method"></i> Methods</h3>
-                                                                <a id="method_core"></a>
-                        <div class="element clickable method public  method_core" data-toggle="collapse" data-target=".method_core .collapse">
-                            <h2>core</h2>
-                            <pre>core(\Matrix $m) </pre>
+                                                                <a id="method_assert"></a>
+                        <div class="element clickable method private  method_assert inherited" data-toggle="collapse" data-target=".method_assert .collapse">
+                            <h2>assert</h2>
+                            <pre>assert( $expression) </pre>
                             <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
 
                             
                             <div class="row collapse">
@@ -257,85 +233,7 @@
 
                                                                             <h3>Arguments</h3>
                                                                                     <div class="subelement argument">
-                                                <h4>$m</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                            
-                                                                    </div>
-                            </div>
-
-                        </div>
-                                            <a id="method_gaussianElimination"></a>
-                        <div class="element clickable method public  method_gaussianElimination" data-toggle="collapse" data-target=".method_gaussianElimination .collapse">
-                            <h2>gaussianElimination</h2>
-                            <pre>gaussianElimination(\Matrix $m) </pre>
-                            <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
-
-                            
-                            <div class="row collapse">
-                                <div class="detail-description">
-                                    <div class="long_description"></div>
-
-                                    <table class="table">
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                            </table>
-
-                                                                            <h3>Arguments</h3>
-                                                                                    <div class="subelement argument">
-                                                <h4>$m</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                            
-                                                                    </div>
-                            </div>
-
-                        </div>
-                                            <a id="method_identity"></a>
-                        <div class="element clickable method public  method_identity" data-toggle="collapse" data-target=".method_identity .collapse">
-                            <h2>identity</h2>
-                            <pre>identity( $domain) </pre>
-                            <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
-
-                            
-                            <div class="row collapse">
-                                <div class="detail-description">
-                                    <div class="long_description"></div>
-
-                                    <table class="table">
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                            </table>
-
-                                                                            <h3>Arguments</h3>
-                                                                                    <div class="subelement argument">
-                                                <h4>$domain</h4>
+                                                <h4>$expression</h4>
                                                 <code></code><p></p>
                                             </div>
                                                                             
@@ -343,12 +241,12 @@
                             </div>
 
                         </div>
-                                            <a id="method_inverse"></a>
-                        <div class="element clickable method public  method_inverse" data-toggle="collapse" data-target=".method_inverse .collapse">
-                            <h2>inverse</h2>
-                            <pre>inverse(\Matrix $m) </pre>
+                                            <a id="method_assertEquals"></a>
+                        <div class="element clickable method protected  method_assertEquals inherited" data-toggle="collapse" data-target=".method_assertEquals .collapse">
+                            <h2>assertEquals</h2>
+                            <pre>assertEquals( $exp1,  $exp2) </pre>
                             <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
 
                             
                             <div class="row collapse">
@@ -374,93 +272,11 @@
 
                                                                             <h3>Arguments</h3>
                                                                                     <div class="subelement argument">
-                                                <h4>$m</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                            
-                                                                    </div>
-                            </div>
-
-                        </div>
-                                            <a id="method_multiply"></a>
-                        <div class="element clickable method public  method_multiply" data-toggle="collapse" data-target=".method_multiply .collapse">
-                            <h2>multiply</h2>
-                            <pre>multiply(\Matrix $a, \Matrix $b) </pre>
-                            <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
-
-                            
-                            <div class="row collapse">
-                                <div class="detail-description">
-                                    <div class="long_description"></div>
-
-                                    <table class="table">
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                            </table>
-
-                                                                            <h3>Arguments</h3>
-                                                                                    <div class="subelement argument">
-                                                <h4>$a</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
+                                                <h4>$exp1</h4>
+                                                <code></code><p></p>
                                             </div>
                                                                                     <div class="subelement argument">
-                                                <h4>$b</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                            
-                                                                    </div>
-                            </div>
-
-                        </div>
-                                            <a id="method_scale"></a>
-                        <div class="element clickable method public  method_scale" data-toggle="collapse" data-target=".method_scale .collapse">
-                            <h2>scale</h2>
-                            <pre>scale(\Matrix $a,  $real) </pre>
-                            <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
-
-                            
-                            <div class="row collapse">
-                                <div class="detail-description">
-                                    <div class="long_description"></div>
-
-                                    <table class="table">
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                            </table>
-
-                                                                            <h3>Arguments</h3>
-                                                                                    <div class="subelement argument">
-                                                <h4>$a</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                                    <div class="subelement argument">
-                                                <h4>$real</h4>
+                                                <h4>$exp2</h4>
                                                 <code></code><p></p>
                                             </div>
                                                                             
@@ -468,12 +284,12 @@
                             </div>
 
                         </div>
-                                            <a id="method_sub"></a>
-                        <div class="element clickable method public  method_sub" data-toggle="collapse" data-target=".method_sub .collapse">
-                            <h2>sub</h2>
-                            <pre>sub(\Matrix $a, \Matrix $b) </pre>
+                                            <a id="method_assertFalse"></a>
+                        <div class="element clickable method protected  method_assertFalse inherited" data-toggle="collapse" data-target=".method_assertFalse .collapse">
+                            <h2>assertFalse</h2>
+                            <pre>assertFalse( $expression) </pre>
                             <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
 
                             
                             <div class="row collapse">
@@ -499,54 +315,7 @@
 
                                                                             <h3>Arguments</h3>
                                                                                     <div class="subelement argument">
-                                                <h4>$a</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                                    <div class="subelement argument">
-                                                <h4>$b</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                            
-                                                                    </div>
-                            </div>
-
-                        </div>
-                                            <a id="method_subNumber"></a>
-                        <div class="element clickable method public  method_subNumber" data-toggle="collapse" data-target=".method_subNumber .collapse">
-                            <h2>subNumber</h2>
-                            <pre>subNumber(\Matrix $a,  $real) </pre>
-                            <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
-
-                            
-                            <div class="row collapse">
-                                <div class="detail-description">
-                                    <div class="long_description"></div>
-
-                                    <table class="table">
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                            </table>
-
-                                                                            <h3>Arguments</h3>
-                                                                                    <div class="subelement argument">
-                                                <h4>$a</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                                    <div class="subelement argument">
-                                                <h4>$real</h4>
+                                                <h4>$expression</h4>
                                                 <code></code><p></p>
                                             </div>
                                                                             
@@ -554,12 +323,12 @@
                             </div>
 
                         </div>
-                                            <a id="method_sum"></a>
-                        <div class="element clickable method public  method_sum" data-toggle="collapse" data-target=".method_sum .collapse">
-                            <h2>sum</h2>
-                            <pre>sum(\Matrix $a, \Matrix $b) </pre>
+                                            <a id="method_assertNull"></a>
+                        <div class="element clickable method protected  method_assertNull inherited" data-toggle="collapse" data-target=".method_assertNull .collapse">
+                            <h2>assertNull</h2>
+                            <pre>assertNull( $expression) </pre>
                             <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
 
                             
                             <div class="row collapse">
@@ -585,54 +354,7 @@
 
                                                                             <h3>Arguments</h3>
                                                                                     <div class="subelement argument">
-                                                <h4>$a</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                                    <div class="subelement argument">
-                                                <h4>$b</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                            
-                                                                    </div>
-                            </div>
-
-                        </div>
-                                            <a id="method_sumNumber"></a>
-                        <div class="element clickable method public  method_sumNumber" data-toggle="collapse" data-target=".method_sumNumber .collapse">
-                            <h2>sumNumber</h2>
-                            <pre>sumNumber(\Matrix $a,  $real) </pre>
-                            <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
-
-                            
-                            <div class="row collapse">
-                                <div class="detail-description">
-                                    <div class="long_description"></div>
-
-                                    <table class="table">
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                                    <tr>
-                                                <th>
-                                                    
-                                                </th>
-                                                <td>
-                                                                                                    </td>
-                                            </tr>
-                                                                            </table>
-
-                                                                            <h3>Arguments</h3>
-                                                                                    <div class="subelement argument">
-                                                <h4>$a</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
-                                            </div>
-                                                                                    <div class="subelement argument">
-                                                <h4>$real</h4>
+                                                <h4>$expression</h4>
                                                 <code></code><p></p>
                                             </div>
                                                                             
@@ -640,12 +362,12 @@
                             </div>
 
                         </div>
-                                            <a id="method_transpose"></a>
-                        <div class="element clickable method public  method_transpose" data-toggle="collapse" data-target=".method_transpose .collapse">
-                            <h2>transpose</h2>
-                            <pre>transpose(\Matrix $m) </pre>
+                                            <a id="method_assertTrue"></a>
+                        <div class="element clickable method protected  method_assertTrue inherited" data-toggle="collapse" data-target=".method_assertTrue .collapse">
+                            <h2>assertTrue</h2>
+                            <pre>assertTrue( $expression) </pre>
                             <div class="labels">
-                                                                <span class="label">static</span>                                                                                                                            </div>
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
 
                             
                             <div class="row collapse">
@@ -671,10 +393,112 @@
 
                                                                             <h3>Arguments</h3>
                                                                                     <div class="subelement argument">
-                                                <h4>$m</h4>
-                                                <code><a href="../classes/Matrix.html">\Matrix</a></code><p></p>
+                                                <h4>$expression</h4>
+                                                <code></code><p></p>
                                             </div>
                                                                             
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_failed"></a>
+                        <div class="element clickable method private  method_failed inherited" data-toggle="collapse" data-target=".method_failed .collapse">
+                            <h2>failed</h2>
+                            <pre>failed() </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_passed"></a>
+                        <div class="element clickable method private  method_passed inherited" data-toggle="collapse" data-target=".method_passed .collapse">
+                            <h2>passed</h2>
+                            <pre>passed() </pre>
+                            <div class="labels">
+                                <span class="label">inherited</span>                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
+                                                                    </div>
+                            </div>
+
+                        </div>
+                                            <a id="method_testIfTrue"></a>
+                        <div class="element clickable method public  method_testIfTrue" data-toggle="collapse" data-target=".method_testIfTrue .collapse">
+                            <h2>testIfTrue</h2>
+                            <pre>testIfTrue() </pre>
+                            <div class="labels">
+                                                                                                                                                                                            </div>
+
+                            
+                            <div class="row collapse">
+                                <div class="detail-description">
+                                    <div class="long_description"></div>
+
+                                    <table class="table">
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                                    <tr>
+                                                <th>
+                                                    
+                                                </th>
+                                                <td>
+                                                                                                    </td>
+                                            </tr>
+                                                                            </table>
+
+                                    
                                                                     </div>
                             </div>
 
@@ -683,14 +507,14 @@
                     
                                                         </div>
             </div>
-            <a id="\MatrixOperations"></a>
+            <a id="\MainTest"></a>
             <ul class="breadcrumb">
                 <li><a href="../index.html"><i class="icon-custom icon-class"></i></a></li>
                     
     
     <li><span class="divider">\</span><a href="../namespaces/default.html">\</a></li>
 
-                <li class="active"><span class="divider">\</span><a href="../classes/MatrixOperations.html">MatrixOperations</a></li>
+                <li class="active"><span class="divider">\</span><a href="../classes/MainTest.html">MainTest</a></li>
             </ul>
         </div>
     </div>
@@ -703,7 +527,7 @@
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and<br/>
             generated on 
 Warning: date_default_timezone_get(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /usr/local/pear/share/pear/phpDocumentor/vendor/twig/twig/lib/Twig/Extension/Core.php on line 89
-Sun, 09 Nov 2014 00:57:29 +0000.<br/>
+Mon, 10 Nov 2014 02:21:35 +0000.<br/>
     </footer>
     </body>
 </html>
